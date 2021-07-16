@@ -132,7 +132,7 @@ def start(bot: Bot, update: Update, args: List[str]):
          
 
         update.effective_message.reply_text("Heya,not for u only @Tentkottagroup",reply_markup=InlineKeyboardMarkup(
-                                                InlineKeyboardButton(text="♻️ Mai Repo",url="https://t.me/Thalapathy_off")]]))
+                                               [[InlineKeyboardButton(text="❓ Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text="♻️ Mai Repo",url="https://t.me/Thalapathy_off")]]))
                                   
 # for test purposes
 def error_callback(bot, update, error):
