@@ -128,7 +128,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(DEVIL_IMG,PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_USERNAME ),reply_markup=InlineKeyboardMarkup(
                                                   [[InlineKeyboardButton(text="♻️ Channel 1",url="https://t.me/Ottrockers2k"),InlineKeyboardButton(text="Channel 2😇",url="https://t.me/OttrockersDub")],
-                                                
+                                                [InlineKeyboardButton(text="🎬 Group",url="https://t.me/Tentkottagroup"),InlineKeyboardButton(text="📺 Tvseries Channel",url="https://t.me/OR2kwebseries")]]),disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
          
 
         update.effective_message.reply_text("Heya, How can I help you? 🙂",reply_markup=InlineKeyboardMarkup(
