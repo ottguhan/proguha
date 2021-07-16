@@ -131,8 +131,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                 [InlineKeyboardButton(text="🎬 Group",url="https://t.me/Tentkottagroup"),InlineKeyboardButton(text="📺 Tvseries Channel",url="https://t.me/OR2kwebseries")]]),disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
          
 
-        update.effective_message.reply_text("Heya, How can I help you? 🙂",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="❓ Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text="♻️ Mai Repo",url="https://github.com/jikkubot")]]))
+        update.effective_message.reply_text("Heya,not for u only @Tentkottagroup",reply_markup=InlineKeyboardMarkup(
+                                                InlineKeyboardButton(text="♻️ Mai Repo",url="https://t.me/Thalapathy_off")]]))
                                   
 # for test purposes
 def error_callback(bot, update, error):
